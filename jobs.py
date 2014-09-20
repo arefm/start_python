@@ -1,5 +1,11 @@
 # - *-coding: utf- 8 - *-
 
+import urllib
+import requests
+
+# urllib.urlopen("http://myapi", )
+requests.post("sdgsdg", {})
+
 class Jobs:
 
 	all_vars = {}
