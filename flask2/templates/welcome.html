@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+	<link rel="stylesheet" type="text/css" href="../static/css/bootstrap.min.css">
+</head>
+<body>
+	<h1>Welcome</h1>
+	<a href="/logout">Logout</a>
+	{% if message %}
+	<p>{{message}}</p>
+	{% endif %}
+</body>
+</html>
